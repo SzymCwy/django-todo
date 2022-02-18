@@ -1,0 +1,3 @@
+{% for instance in objects %}
+<p>{{ instance.title }} <a href="/todos/list/{{ instance.id }}/delete">Delete</a>  <a href="/todos/list/{{ instance.id }}/update">Update</a></p>
+{% endfor %}
